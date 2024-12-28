@@ -1,0 +1,3 @@
+# Null Safety Bug in Dart
+
+This repository demonstrates a common null safety issue in Dart and provides a solution.  The issue arises from accessing potentially null variables before they're properly initialized, leading to unexpected runtime errors. This example showcases a safe method of handling potential null values through proper initialization and getter/setter usage. This technique ensures that accessing the field always returns a valid value, avoiding the risk of null pointer exceptions.
